@@ -34,3 +34,7 @@ python main.py filter parameters input_file output_file
 * `bilateral` `sigma_d sigma_r` — билатеральная фильтрация с параметрами <img src="https://render.githubusercontent.com/render/math?math=\sigma_d"> и <img src="https://render.githubusercontent.com/render/math?math=\sigma_r">
 
 Значение rad — целое положительное, значения sigma_d и sigma_r — вещественные положительные.
+
+---
+
+В файле `main_with_cv2.py` находится реализация с использованием готовых функций из библиотек scikit-image, opencv-python. В файле `main.py` находятся собственные реализации.
