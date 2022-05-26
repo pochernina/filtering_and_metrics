@@ -30,7 +30,7 @@ python main.py filter parameters input_file output_file
 ```
 Список фильтров:
 * `median` `rad` — медианная фильтрация с окном размера (2rad+1) × (2rad+1)
-* `gauss` `sigma_d` — фильтр Гаусса с параметром <img src="https://render.githubusercontent.com/render/math?math=\sigma_d">
+* `gauss` `sigma_d` — фильтр Гаусса с параметром $\sigma_d$
 * `bilateral` `sigma_d sigma_r` — билатеральная фильтрация с параметрами <img src="https://render.githubusercontent.com/render/math?math=\sigma_d"> и <img src="https://render.githubusercontent.com/render/math?math=\sigma_r">
 
 Значение rad — целое положительное, значения sigma_d и sigma_r — вещественные положительные.
